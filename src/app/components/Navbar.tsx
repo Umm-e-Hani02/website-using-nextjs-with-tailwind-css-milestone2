@@ -73,11 +73,11 @@ export default function Navbar() {
         } md:hidden w-64 shadow-lg`}
       >
         <div className="px-4 pt-4 space-y-4 mt-10">
-          <a href="/" className="text-white text-center block rounded-lg p-2 active:opacity-5 transition-all">Home</a>
-          <a href="/about" className="text-white text-center block rounded-lg p-2 active:opacity-5 transition-all">About</a>
-          <a href="/menu" className="text-white text-center block rounded-lg p-2 active:opacity-5 transition-all">Menu</a>
-          <a href="/contact" className="text-white text-center block rounded-lg p-2 active:opacity-5 transition-all">Contact</a>
-          <a href="/feedback" className="text-white text-center block rounded-lg p-2 active:opacity-5 transition-all">Feedback</a>
+          <Link href="/" className="text-white text-center block rounded-lg p-2 active:opacity-5 focus:underline focus:underline-offset-4 focus:text-white transition-all">Home</Link>
+          <Link href="/about" className="text-white text-center block rounded-lg p-2 active:opacity-5 focus:underline focus:underline-offset-4 focus:text-white transition-all">About</Link>
+          <Link href="/menu" className="text-white text-center block rounded-lg p-2 active:opacity-5 focus:underline focus:underline-offset-4 focus:text-white transition-all">Menu</Link>
+          <Link href="/contact" className="text-white text-center block rounded-lg p-2 active:opacity-5 focus:underline focus:underline-offset-4 focus:text-white transition-all">Contact</Link>
+          <Link href="/feedback" className="text-white text-center block rounded-lg p-2 active:opacity-5 focus:underline focus:underline-offset-4 focus:text-white transition-all">Feedback</Link>
         </div>
       </div>
     </nav>
