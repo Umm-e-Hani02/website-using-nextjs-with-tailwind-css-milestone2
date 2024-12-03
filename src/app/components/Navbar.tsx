@@ -20,11 +20,11 @@ export default function Navbar() {
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
-             <Link href="/" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">Home</Link>
-              <Link href="/about" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">About</Link>
-              <Link href="/menu" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">Menu</Link>
-              <Link href="/contact" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">Contact</Link>
-              <Link href="/feedback" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">Feedback</Link>
+             <Link href="/" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 hover:text-fuchsia-950 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">Home</Link>
+              <Link href="/about" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 hover:text-fuchsia-950 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">About</Link>
+              <Link href="/menu" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 hover:text-fuchsia-950 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">Menu</Link>
+              <Link href="/contact" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 hover:text-fuchsia-950 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">Contact</Link>
+              <Link href="/feedback" className="text-white rounded-lg p-2 active:opacity-5 transition-all hover:underline hover:underline-offset-4 hover:text-fuchsia-950 focus:underline focus:underline-offset-4 focus:text-fuchsia-950">Feedback</Link>
             </div>
           </div>
           <div className="md:hidden flex items-center">
