@@ -10,13 +10,13 @@ export default function Feedback(){
         <form action="" className="text-black m-auto">
 
           <legend className="font-semibold">Name</legend>
-          <input type="text" placeholder="John Doe" className="focus:outline-none focus:ring-2 focus:ring-slate-600 p-2 md:w-[33rem] rounded-lg text-gray-800 mb-5"required/>
+          <input type="text" placeholder="John Doe" className="focus:outline-none focus:ring-2 focus:ring-slate-600 p-2 w-full max-w-md rounded-lg text-gray-800 mb-5"required/>
 
           <legend className="font-semibold">Email(Optional)</legend>
-          <input type="email" placeholder="johndoe@example.com" className="focus:outline-none focus:ring-2 focus:ring-slate-600 p-2 md:w-[33rem] rounded-lg text-gray-800 mb-5"/>
+          <input type="email" placeholder="johndoe@example.com" className="focus:outline-none focus:ring-2 focus:ring-slate-600 p-2 w-full max-w-md rounded-lg text-gray-800 mb-5"/>
 
           <legend className="font-semibold">Rating (1-5)</legend>
-          <select name="rating" id="rating" className="md:w-[33rem] text-gray-800 focus:outline-none focus:ring-2 focus:ring-slate-600 rounded-lg p-2 mb-5" required>
+          <select name="rating" id="rating" className="focus:outline-none focus:ring-2 focus:ring-slate-600 p-2 w-full max-w-md rounded-lg text-gray-800 mb-5" required>
             <option value="">Select a rating</option>
             <option value="1">1. Poor</option>
             <option value="2">2. Fair</option>
@@ -26,7 +26,9 @@ export default function Feedback(){
           </select>
 
           <legend className="font-semibold">Comments:</legend>
-          <textarea name="comments" id="comments" placeholder="Write your feedback or suggestions here..." className="focus:outline-none focus:ring-2 focus:ring-slate-600 p-2 h-32 md:w-[33rem] rounded-lg text-gray-800 mb-5" required></textarea>
+          <textarea name="comments" id="comments" placeholder="Write your feedback or suggestions here..." className="focus:outline-none focus:ring-2 focus:ring-slate-600 p-2 w-full max-w-md rounded-lg text-gray-800 mb-5" required></textarea>
+
+          
 
           <button type="submit" className="bg-fuchsia-900 text-white p-2 rounded-xl hover:bg-fuchsia-800 active:opacity-5 transition-all">Send Feedback</button>
 
