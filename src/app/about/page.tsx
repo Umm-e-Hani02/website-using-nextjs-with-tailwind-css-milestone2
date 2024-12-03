@@ -33,7 +33,7 @@ export default function About(){
                 </div>
                 <div className="bg-pink-400 p-3 rounded-xl">
                     <p className="">
-                        Our commitment to quality and health sets us apart. We ensure that no artificial colors flavors or harmful additives are used in our creations. Every bite and sip is made from the finest natural ingredients ensuring our offerings are both delicious and safe for everyone. What's more, all our products are entirely non-alcoholic making them a perfect choice for individuals families and anyone looking for wholesome indulgence. At The Dessert Stop we strive to create a welcoming and family-friendly environment where everyone can enjoy the perfect blend of taste quality and care. Join us and let us treat you to a dessert experience that is as comforting as it is unforgettable.
+                        Our commitment to quality and health sets us apart. We ensure that no artificial colors flavors or harmful additives are used in our creations. Every bite and sip is made from the finest natural ingredients ensuring our offerings are both delicious and safe for everyone. Whats more all our products are entirely non-alcoholic making them a perfect choice for individuals families and anyone looking for wholesome indulgence. At The Dessert Stop we strive to create a welcoming and family-friendly environment where everyone can enjoy the perfect blend of taste quality and care. Join us and let us treat you to a dessert experience that is as comforting as it is unforgettable.
                     </p>
                 </div>
             </div>
