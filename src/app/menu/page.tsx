@@ -188,7 +188,7 @@ export default function Menu(){
 
             </div>
 
-            <h2 className="text-black text-center text-3xl font-bold py-10">Pancakes</h2>
+            <h2 className="text-black text-center text-3xl font-bold py-10">Coffee</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-7">
 
